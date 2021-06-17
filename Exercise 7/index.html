@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button that adds 1</title>
+</head>
+<body>
+<script>
+    let num = 0
+    function myVariable (){
+        let display = document.getElementById('number')
+        if (num > -1)
+            num = num + 1
+        display.innerText = num
+        return display
+
+    }
+</script>
+
+    <button onclick = myVariable() >Button</button>
+    <h3 id = 'number'>0</h3>
+
+
+</body>
+</html>
